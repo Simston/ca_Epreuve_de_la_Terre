@@ -7,8 +7,8 @@ Week 2 - Part 1  - of Coding Accelerator program.
   Create a program that displays the Alphabet in lowercase letters followed by a newline.
   
   Example of use :
-  $> python exo.py
-  abcdefghijklmnopqrstuvwxyz
+  $> python exo.py  
+  abcdefghijklmnopqrstuvwxyz  
   $>
 
   Warning : your program will need to use a loop.
