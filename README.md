@@ -14,3 +14,12 @@ Week 2 - Part 1  - of Coding Accelerator program.
   Warning : your program will need to use a loop.
 
 ## Ex 1 : " Program name "
+
+  Create a program that displays its filename.
+
+  Example of use :
+  $> node exo.js  
+  exo.js  
+
+  $> node crevette.js  
+  crevette.js
