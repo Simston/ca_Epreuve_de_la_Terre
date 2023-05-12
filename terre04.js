@@ -1,6 +1,5 @@
 // Pair ou impair
 
-
 var args = process.argv;
 var booleanVerif = verifyNumberOfArgument(args);
 
