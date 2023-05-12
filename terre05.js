@@ -13,21 +13,28 @@ if (booleanVerif) {
     
 
     var quotient = 0;
+    var remainder = 0;
 
     if( divider != 0) {
-       
+
+        remainder = dividend % divider;
+        quotient = dividend / divider;
+        /*
         while (dividend > divider) {
 
             dividend -= divider;
             quotient++
     
-        }
+        }*/
 
-        var remainder = dividend;
+        //var remainder = dividend;
 
-        if( typeof dividend != "number" || typeof divider != "number") {
+        
+        // typeof dividend != "number" || typeof divider != "number"
+        if( Number.isNaN(dividend) || Number.isNaN(divider)) {
 
-            console.log("FUCK")
+            console.log("Veuillez entrer des données correctes")
+
         }else{
             console.log("Resultat = " + quotient);
             console.log("Reste = " + remainder);
