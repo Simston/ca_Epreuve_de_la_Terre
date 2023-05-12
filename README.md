@@ -38,7 +38,7 @@ Week 2 - Part 1  - of Coding Accelerator program.
 
 ## Ex 3 : " The alphabet from "
   
-  Create a program that displays the alphabet from the given as argument  
+  Create a program that displays the alphabet from the letter given as argument,  
   in lowercase letters followed by a newline.
 
   Example of use :  
