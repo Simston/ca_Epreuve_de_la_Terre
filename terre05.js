@@ -47,7 +47,6 @@ if (booleanVerif) {
     console.log("Veuillez entrer 2 nombres");
 }
 
-
 // Function to check if there is indeed a single argument passed
 function verifyNumberOfArgument(arg){
 
