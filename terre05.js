@@ -8,42 +8,39 @@ if (booleanVerif) {
     var dividend = process.argv[2];
     var divider = process.argv[3];
 
-   dividend =  Number(dividend)
-   divider = Number(divider)
+    //Convert to type Number
+    dividend =  Number(dividend);
+    divider = Number(divider);
     
-
     var quotient = 0;
     var remainder = 0;
 
     if( divider != 0) {
-
-        remainder = dividend % divider;
-        quotient = dividend / divider;
-        /*
-        while (dividend > divider) {
-
-            dividend -= divider;
-            quotient++
-    
-        }*/
-
-        //var remainder = dividend;
-
         
-        // typeof dividend != "number" || typeof divider != "number"
+        while (dividend >= divider) {
+
+            // Remove the value of the divisor at each turn of the loop to obtain the result of the division
+            dividend -= divider;
+            // Number of iterating
+            quotient++;
+    
+        }
+
+        var remainder = dividend;
+
+        // Check that data is a Number
         if( Number.isNaN(dividend) || Number.isNaN(divider)) {
 
-            console.log("Veuillez entrer des données correctes")
+            console.log("Veuillez entrer des données correctes");
 
         }else{
+            // Show result
             console.log("Resultat = " + quotient);
             console.log("Reste = " + remainder);
         }
 
-    
-
     }else{
-        console.log("Le diviseur ne peut pas être nul")
+        console.log("Le diviseur ne peut pas être nul");
     } 
 
 }else{
@@ -68,14 +65,14 @@ function verifyNumberOfArgument(arg){
 //function for iterate over a data and return its lenght
 function lenghtOf(data) {
   
-    var numberOfChar = 0;
+    var count = 0;
 
     for (var i = 0; data[i] != undefined; i++){
 
-    numberOfChar++;
+    count++;
 
     }
 
-    return numberOfChar;
+    return count;
 
 }
