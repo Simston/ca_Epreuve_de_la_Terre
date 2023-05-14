@@ -17,10 +17,16 @@ if(booleanVerif){
         //console.log(result)
     }
 
-    if(result != 1){
+    if(base =="1" && exposant =="1") {
+
+        console.log(result)
+
+    }else if(result != 1){
+
         console.log(result)
        
     }else{
+        
         console.log('Veuillez entrer une base et un exposant positif')
     }
 }
