@@ -23,10 +23,10 @@ if(booleanVerif){
 
     }else if(result != 1){
 
-        console.log(result)
+        console.log(result);
        
     }else{
-        
+
         console.log('Veuillez entrer une base et un exposant positif')
     }
 }
