@@ -10,7 +10,7 @@ var racineSecondDecimal;
 //finalResult
 var realFinalRacine;
 var finalRacine;
-var racineCarrée;
+var racineCarree1;
 
 
 if(booleanVerif){
@@ -20,29 +20,24 @@ if(booleanVerif){
 
     for(var i = 0; i <= nombre; i++) {
 
-        racineCarrée = i * i;
-        //console.log(racineCarrée)
+        racineCarree1 = i * i;
 
-        if (racineCarrée == nombre) {
+        if (racineCarree1 == nombre) {
 
             console.log("La racine carré de " + nombre + " est " + (i))
             break;
 
-        }else if (racineCarrée > nombre) {
+        }else if (racineCarree1 > nombre) {
 
-            racineCarrée = (i-1);
-            //console.log(racineCarrée);
-            finalRacine = racineCarrée;
+            racineCarree1 = (i-1);
+            finalRacine = racineCarree1;
 
             // Loop for find first decimal
             for (var y = 0; y < nombre; y++) {
 
-                racineCarrée += 0.1;
-                racineFirstDecimal = racineCarrée * racineCarrée;
-                //console.log(racineFirstDecimal)
-                //console.log(racineFirstDecimal)
+                racineCarree1 += 0.1;
+                racineFirstDecimal = racineCarree1 * racineCarree1;
                 finalRacine = finalRacine + 0.1;
-               
                
                 if (racineFirstDecimal > nombre) {
 
@@ -50,9 +45,7 @@ if(booleanVerif){
                     //console.log(finalRacine)
 
                     realFinalRacine = finalRacine;
-                    console.log(realFinalRacine)
-
-
+                    //console.log(realFinalRacine)
                     break;
                 }
             }
@@ -67,38 +60,17 @@ if(booleanVerif){
                //console.log(realFinalRacine)
     
                 if (racineSecondDecimal > nombre) {
-    
-                
+     
                     realFinalRacine = realFinalRacine - 0.01;
-                   
                     console.log(realFinalRacine.toFixed(2))
-    
                     break;
                    
                 }
-    
             }
-
-
-            break;
-            
+            break;        
         }
-
-        
-
-
     }
-
-
-
-
 }
-
-
-
-
-
-
 
 // Function to check if there is indeed a single argument passed
 function verifyNumberOfArgument(arg){
