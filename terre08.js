@@ -14,7 +14,6 @@ if(booleanVerif){
 
         result *= base;
         
-        //console.log(result)
     }
 
     if(base =="1" && exposant =="1") {
