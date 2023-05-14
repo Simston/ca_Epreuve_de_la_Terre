@@ -55,14 +55,14 @@ if(booleanVerif){
                 finalRacine = (finalRacine + 0.01);
                 
                 racineSecondDecimal = finalRacine * finalRacine;
-                console.log(racineSecondDecimal)
+                //console.log(racineSecondDecimal)
                 realFinalRacine = realFinalRacine + 0.01;
                //console.log(realFinalRacine)
     
                 if (racineSecondDecimal > nombre) {
      
                     realFinalRacine = realFinalRacine - 0.01;
-                    console.log(realFinalRacine.toFixed(2))
+                    console.log("La racine carrée de " + nombre + " est " + realFinalRacine.toFixed(2))
                     break;
                    
                 }
