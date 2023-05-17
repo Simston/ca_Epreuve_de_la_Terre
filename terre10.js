@@ -18,20 +18,34 @@ if(booleanVerif) {
     }else{
 
         for(var i = 2; (number - 1) > i; i++) {
+            
+            var finalResult;
 
             modulo = number % i;
             console.log(modulo)
 
+            // if there is a remainder between 2 and n -1 then the number is a composite number
             if(modulo == 0){
 
-                console.log(number + " n'est pas un nombre premier");
+                finalResult = false;
                 break;
+
             }else{
+ 
+                finalResult = true;
 
-                console.log(number + " est un nombre premier");
-                break;
+            }          
+        }
+        
+        // Display final result
+        if(finalResult === false) {
 
-            }
+            console.log(number + " n'est pas un nombre premier");
+
+        }else if(finalResult === true) {
+
+            console.log(number + " est un nombre premier");
+
         }
     }
 }
