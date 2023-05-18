@@ -51,8 +51,7 @@ if ( booleanVerif ) {
     }
 
     if(trieOuPas == "char"){
-        console.log("Erreur ! Veuillez vérifier les données envoyer au programme.")
-
+        console.log("Erreur ! Veuillez vérifier les données envoyer au programme.");
     }else if(trieOuPas == "true"){
         console.log("Triée");
     }else{
@@ -68,6 +67,7 @@ function verifyNumberOfArgument(arg){
     //Count the number of Args passed in the command user's, and then iterate over the process array
     var countArgs = lenghtOf(arg);
 
+    // this counter can be modify if you want more or less arguments
     if ( countArgs < 4) {
     
         return false;
