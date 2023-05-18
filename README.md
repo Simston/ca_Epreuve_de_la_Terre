@@ -177,24 +177,25 @@ Week 2 - Part 1  - of Coding Accelerator program.
 
 ## Ex 14 : " Sorted or Not "
 
-  Create a program that determines whether a list of integers is sorted or not.
-  Examples of use:
-  $> ruby exo.rb 9 8 3
+  Create a program that determines whether a list of integers is sorted or not. 
+  
+  Examples of use:  
+  $> ruby exo.rb 9 8 3  
   Pas triée !
 
-  $> ruby exo.rb 3 8 9 12
+  $> ruby exo.rb 3 8 9 12  
   Triée !
 
-  $> ruby exo.rb “Salut”
-  erreur.
+  $> ruby exo.rb “Salut”  
+  erreur.  
 
 ## Ex 15 : " Terre : OK "
 
-  Create a program that celebrates your victory.
+  Create a program that celebrates your victory.  
   
-  Examples of use:
-  $> ruby exo.rb
-  J’ai terminé l’Épreuve de la Terre et c’était [].
-  $>
+  Examples of use:  
+  $> ruby exo.rb  
+  J’ai terminé l’Épreuve de la Terre et c’était [].  
+  $>  
 
   Note: [] is to be replaced by an adjective of your choice (easy?)
