@@ -51,7 +51,7 @@ if ( booleanVerif ) {
     }
 
     if(trieOuPas == "char"){
-        console.log("Erreur ! Veuillez vérifier les données envoyer au programme.");
+        console.log("Erreur ! Veuillez vérifier les données envoyées au programme.");
     }else if(trieOuPas == "true"){
         console.log("Triée");
     }else{
